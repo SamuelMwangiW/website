@@ -1,31 +1,25 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="flex items-center justify-center align-middle h-screen">
+    <div class="max-w-sm">
+      <div class="coding inverse-toggle px-5 pt-4 shadow-lg text-gray-100 text-sm font-mono subpixel-antialiased
+              bg-gray-800  pb-6 pt-4 rounded-lg leading-normal overflow-hidden">
+        <div class="top mb-2 flex">
+          <div class="h-3 w-3 bg-red-500 rounded-full"></div>
+          <div class="ml-2 h-3 w-3 bg-orange-300 rounded-full"></div>
+          <div class="ml-2 h-3 w-3 bg-green-500 rounded-full"></div>
+        </div>
+        <div class="mt-4 flex">
+          <span class="text-green-400">smwangi:~$</span>
+          <p class="flex-1 typing items-center pl-2">
+            sudo hire me
+            <br>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
